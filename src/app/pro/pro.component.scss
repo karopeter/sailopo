@@ -1,0 +1,101 @@
+$color-primary: #fff;
+$color-primary-dark: #000;
+$color-secondary-black: rgba(0, 0, 0, 0.815);
+$color-secondary-blue: #0070C0;
+$color-secondary-light: #e0e0e0;
+$font-family: 'Oswald', sans-serif;
+
+.video {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  margin-top: 2rem;
+
+  &__tube {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: $color-secondary-blue;
+  }
+
+  &__crew {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: $color-primary-dark;
+  }
+}
+
+.index__truth {
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: $color-primary-dark;
+  font-weight: 400;
+
+  a {
+    color: $color-secondary-blue;
+  }
+}
+
+.hank__action {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: $color-secondary-blue;
+  text-align: center;
+  font-family: $font-family;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.long__copy {
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 1.3rem;
+  color: $color-primary-dark;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-family: $font-family;
+
+  strong {
+    color: $color-secondary-blue;
+  }
+
+  em {
+    color: $color-secondary-black;
+  }
+}
+
+
+.section-passage {
+   background-image: url(/assets/img/yatch10.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+   background-position: center center;
+   margin-top: 2rem;
+}
+
+.sail__line {
+  margin-top: 20rem;
+  text-align: center;
+  color: $color-primary;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: $font-family;
+  text-shadow: 1px 2px $color-primary-dark;
+}
+
+
+.page__offset {
+  font-family: $font-family;
+  font-size: 2.5rem;
+  color: $color-secondary-blue;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 1px 1px $color-secondary-light;
+  margin-top: 3rem;
+}

@@ -1,0 +1,79 @@
+$color-primary: #fff;
+$color-primary-dark: #000;
+$color-primary-red: #FF0000;
+$color-secondary-blue: #0070C0;
+$font-family: 'Oswald', sans-serif;
+// 'Merriweather', serif;
+
+.section-features {
+   background-image: url(/assets/img/yatch4.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+   background-position: center center;
+   margin-top: 2rem;
+}
+
+.shadow-box {
+  margin-top: 20rem;
+  text-align: center;
+  color: $color-primary;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: $font-family;
+  text-shadow: 1px 2px $color-primary-dark;
+}
+
+.page__indent {
+   margin-top: 2rem;
+  text-align: left;
+  font-size: 1.3rem;
+  color: $color-primary-red;
+  font-weight: 400;
+}
+
+
+.sector__lawn {
+  text-align: left;
+  color: $color-primary-dark;
+  font-family: 'Merriweather', serif;
+  font-style: cursive;
+  font-size: 1.3rem;
+}
+
+
+.section__jam {
+  background-image: url(/assets/img/yatch9.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background-position: center center;
+  margin-top: 2rem;
+}
+
+
+.hank__action {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: $color-secondary-blue;
+  text-align: center;
+  font-family: $font-family;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.long__copy {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: $color-primary-dark;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-family: $font-family;
+
+  strong {
+    color: $color-secondary-blue;
+  }
+}

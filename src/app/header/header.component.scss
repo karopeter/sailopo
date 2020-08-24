@@ -1,0 +1,30 @@
+$color-primary: #DDDDDD;
+$color-primary-dark: #000000;
+$color-secondary-blue: #0070C0;
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba($color-primary-dark, 0.8), rgba($color-primary-dark, 0.8)), url(/assets/img/yatch2.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 4rem;
+  }
+}
+
+.heading-primary {
+  color: $color-primary;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1rem;
+  margin-top: 200px;
+}

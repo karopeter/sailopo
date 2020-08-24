@@ -1,0 +1,51 @@
+$color-primary-dark: #000;
+$color-primary: #fff;
+$font-family: 'Oswald', sans-serif;
+
+
+.footer {
+  background-color: $color-primary-dark;
+  padding: 2rem;
+}
+
+.footer__sea {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: $color-primary;
+  font-family: $font-family;
+}
+
+.image {
+  width: 40%;
+  box-shadow: none;
+  border-radius: 1px;
+  padding: 4px 8px 4px 8px;
+  text-decoration: none;
+  margin-left: 120px;
+  margin-top: 1rem;
+}
+
+.box__walker {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $color-primary;
+  font-family: $font-family;
+  line-height: 1.5rem;
+
+  a {
+    color: $color-primary;
+  }
+}
+
+.long__page {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  color: $color-primary-dark;
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: $font-family;
+}

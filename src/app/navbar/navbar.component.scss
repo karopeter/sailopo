@@ -1,0 +1,22 @@
+$color-primary-green: #308a0d;
+$color-primary-light: #fff;
+$color-primary-dark: #000;
+
+.item__nav {
+  color: $color-primary-light;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 15px;
+
+  &__down {
+    color: $color-primary-dark;
+    font-size: 10px;
+  }
+
+  &:hover,
+  &:active {
+     background-position: 100%;
+     color: $color-primary-green;
+     transform: translateX(1rem);
+  }
+}
